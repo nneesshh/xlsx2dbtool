@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>	
+	<Access UserName="admin" Password="" DataSource="MyAccess.accdb" >
+		<Item InputName="config_robot.xlsx" SheetIdx="0" TitleRowId="1" Fields="A-D" Keys="A" DeleteClause="1=1" SqlTableName="" />
+	</Access>
+</Root>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\pugixml">
+      <UniqueIdentifier>{ff0069e6-6675-4d4f-8af1-17c1cd3205ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\pugixml\pugixml.cpp">
+      <Filter>src\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Convert2Access.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Xlsx2DBTool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AccessSql.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\pugixml\pugixml.hpp">
+      <Filter>src\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pugixml\pugiconfig.hpp">
+      <Filter>src\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Convert2Access.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Xlsx2DBTool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AccessSql.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
